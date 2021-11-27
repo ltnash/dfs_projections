@@ -1,9 +1,3 @@
-#1) Grab universe of player salaries from DK & Fanduel
-### Done manually through website interfaces
-#2) Pull in player prop data
-#3) Create library of players with position / player / projection / salary
-#4) Create optimized lineups
-
 import pandas as pd
 import csv
 from pydfs_lineup_optimizer import Site, Sport, get_optimizer
